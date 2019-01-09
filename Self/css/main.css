@@ -1,0 +1,49 @@
+html { 
+    background: url(images/bg.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+
+
+div#mySelf{
+    border: 1px solid royalblue;
+    padding: 165px;
+}
+img#kim{
+    width: 500px;
+    height: 500px;
+}
+img#sangmyunguniv{
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin-left: auto;
+}
+div#upper{
+    border: 1px solid royalblue;
+    padding: 16px;
+}
+h1#mymy{
+    text-align: center;
+}
+p#my{
+    text-align: right;
+    color:blueviolet;
+    
+}
+div.over > img#kim{
+    animation-name: move;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;  
+}
+@keyframes move{
+    from{
+        opacity: 0.2;
+    }to{
+        opacity: 0.6;
+        margin-top: -30px;
+    }
+}
